@@ -1,0 +1,107 @@
+body {
+  font-size: 14px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  background-color: darkblue;
+  background-position: left;
+  color: white;
+  font-weight: bolder;
+  display: inline;
+}
+
+#bio p {
+  color: black;
+}
+
+#bio ul {
+  color: black;
+}
+
+#h1 {
+  background-color: darkred;
+}
+
+img {
+  border: 1rem solid white;
+  border-radius: 10px;
+  height: auto;
+}
+
+a {
+  padding: 0.25em;
+  margin: 0.25em;
+  border: 3px limegreen;
+  color: white;
+}
+
+a:visited {
+  background-color: blue;
+}
+
+a:hover {
+  background-color: green;
+}
+
+a:focus {
+  background-color: navy;
+}
+
+a:active {
+  background-color: yellow;
+}
+
+.skater {
+  background-color: purple;
+  width: 100%;
+  color: grey;
+}
+
+#sochi {
+  background-color: blue;
+}
+
+#pivot {
+  background-color: red;
+}
+
+.events {
+  background-color: grey;
+  color: yellow;
+}
+
+#medals {
+  background-color: purple;
+}
+
+.group {
+  color: black;
+  text-align: right;
+}
+
+#merica {
+  font-style: italic;
+  color: white;
+  background-image: url("./images/ameri-flag.png");
+}
+
+.celebration {
+  color: white;
+}
+
+#friends {
+  background-color: yellow;
+}
+
+.friends {
+  color: aqua;
+}
+
+.highlight {
+  color: purple;
+  text-decoration: underline;
+}
