@@ -35,24 +35,12 @@ img {
 a {
   padding: 0.25em;
   margin: 0.25em;
-  border: 3px limegreen;
-  color: white;
+  border: 3px;
+  color: blue;
 }
 
 a:visited {
-  background-color: blue;
-}
-
-a:hover {
-  background-color: green;
-}
-
-a:focus {
-  background-color: navy;
-}
-
-a:active {
-  background-color: yellow;
+  background-color: purple;
 }
 
 .skater {
@@ -75,22 +63,23 @@ a:active {
 }
 
 #medals {
+  color: black;
   background-color: purple;
 }
 
 .group {
   color: black;
-  text-align: right;
+  text-align: left;
 }
 
 #merica {
   font-style: italic;
-  color: white;
+  color: black;
   background-image: url("./images/ameri-flag.png");
 }
 
 .celebration {
-  color: white;
+  color: black;
 }
 
 #friends {
@@ -98,10 +87,24 @@ a:active {
 }
 
 .friends {
-  color: aqua;
+  color: black;
 }
 
 .highlight {
   color: purple;
   text-decoration: underline;
+}
+
+footer p {
+  font-family: arial;
+  text-align: center;
+}
+
+.social-media {
+  display: table;
+  margin: auto auto;
+}
+
+.social-media img {
+  height: 3em;
 }

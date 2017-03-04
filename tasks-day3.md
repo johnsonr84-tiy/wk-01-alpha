@@ -19,7 +19,7 @@ Ensure that you:
 - [ ] Use the **main** element to contain your main content.
 - [ ] Use div elements to divide your content up into 5 logical groups which will be referred to as **cards**.
 - [ ] Position your cards so there are 3 cards in a top row and 2 in the bottom row (e.g. 3 columns).  _Do **not** use a table to position your cards!_
-- [ ] Use a footer element to display your personal information (e.g. your name, a link to your github profile, links to any of your social media forms, etc.).  Ensure your personal information is centered in the footer.
+- [x] Use a footer element to display your personal information (e.g. your name, a link to your github profile, links to any of your social media forms, etc.).  Ensure your personal information is centered in the footer.
 
 - Make
   - [ ] small and frequent git commits
