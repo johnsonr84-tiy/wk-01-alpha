@@ -6,7 +6,12 @@ body {
   width: 95%;
   margin: 0 auto;
   background-color: lightgrey;
-  font-size: 14px;
+  font-size: 12px;
+  font-family: arial;
+}
+
+#header {
+  height: 100%;
 }
 
 header a {
@@ -15,21 +20,23 @@ header a {
 
 #nav {
   background-color: grey;
+  padding: 0.5em 0;
   color: white;
 }
 
 li {
   display: inline;
-  padding: -1rem;
-  margin-left: 4rem;
-  margin-top: 0rem;
+  padding: 1em;
+  margin-left: 4em;
+  margin-bottom: 10em;
 }
 
 li.logo {
   display: inline;
+  height: 10px;
   position: absolute;
   margin-left: 2.5rem;
-  margin-top: 0rem;
+  margin-top: -10rem;
 }
 
 .logo img {
@@ -37,31 +44,34 @@ li.logo {
   width: auto;
 }
 
-h1, h2 {
-  margin: 0;
-}
-
 #main {
   overflow: auto;
 }
 
 .float-left {
+  height: 100%;
   float: left;
 }
 
-.float-right {
-  float: right;
+.highlight-text {
+  font-size: 12px;
+  font-weight: bold;
+  background: khaki;
 }
 
 .card {
-  width: 20%;
+  height: 100%;
+  width: 30%;
+  margin: 1%;
+  text-align: center;
 }
 
-h1 {
+h2 {
   background-position: left;
   color: darkblue;
   font-weight: bolder;
   display: inline;
+  text-align: center;
 }
 
 #bio p {
@@ -75,8 +85,8 @@ h1 {
 img {
   border: 1px solid white;
   border-radius: 3px;
-  width:200px;
-  height:200px;
+  width:100px;
+  height:100px;
 }
 
 a {
@@ -86,19 +96,28 @@ a {
   color: blue;
 }
 
-a:visited {
-  background-color: purple;
+a:link {
+  color: blue;
 }
 
-#bio {
-  float: left;
+a:visited {
+  color: white;
+  background: red;
+}
+
+#nav a:hover {
+  font-weight: bold;
+  color: blue;
+
+}
+a:hover {
+  color: white;
+  background: maroon;
+  text-decoration: underline;
 }
 
 .events {
   color: black;
-}
-
-#pivot {
 }
 
 #medals {
@@ -119,11 +138,9 @@ a:visited {
   color: black;
 }
 
-#friends {
-}
-
 .friends {
   color: black;
+  text-align: center;
 }
 
 .highlight {
@@ -143,8 +160,7 @@ footer p {
 }
 
 .social-media {
-  display: block;
-  margin: 0px auto;
+  margin: 1px auto;
 }
 
 .social-media img {
