@@ -1,10 +1,11 @@
-html, body* {
+html, body, * {
   box-sizing: border-box;
 }
 
 body {
   width: 95%;
   margin: 0 auto;
+  background-color: lightgrey;
   font-size: 14px;
 }
 
@@ -12,35 +13,53 @@ header a {
   color: white;
 }
 
-
-#nav, #footer {
-  background-color: grey;
-}
-
 #nav {
+  background-color: grey;
   color: white;
 }
 
 li {
   display: inline;
-  padding: 0.5em;
+  padding: -1rem;
+  margin-left: 4rem;
+  margin-top: 0rem;
 }
 
 li.logo {
   display: inline;
   position: absolute;
-  margin-left: 4rem;
-  margin-top: -4rem;
+  margin-left: 2.5rem;
+  margin-top: 0rem;
+}
+
+.logo img {
+  height: 100px;
+  width: auto;
 }
 
 h1, h2 {
   margin: 0;
 }
 
+#main {
+  overflow: auto;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.card {
+  width: 20%;
+}
+
 h1 {
-  background-color: darkblue;
   background-position: left;
-  color: white;
+  color: darkblue;
   font-weight: bolder;
   display: inline;
 }
@@ -53,20 +72,17 @@ h1 {
   color: black;
 }
 
-/*#h1 {*/
-  /*background-color: darkred;*/
-/*}*/
-
 img {
-  border: 1rem solid white;
-  border-radius: 10px;
-  height: auto;
+  border: 1px solid white;
+  border-radius: 3px;
+  width:200px;
+  height:200px;
 }
 
 a {
   padding: 0.25em;
   margin: 0.25em;
-  border: 3px;
+  border: 1px;
   color: blue;
 }
 
@@ -74,24 +90,19 @@ a:visited {
   background-color: purple;
 }
 
-.skater {
-  background-color: purple;
-  width: 100%;
-  color: grey;
-}
-
-#sochi {
-  background-color: blue;
+#bio {
+  float: left;
 }
 
 .events {
-  background-color: grey;
-  color: yellow;
+  color: black;
+}
+
+#pivot {
 }
 
 #medals {
   color: black;
-  background-color: purple;
 }
 
 .group {
@@ -102,7 +113,6 @@ a:visited {
 #merica {
   font-style: italic;
   color: black;
-  background-image: url("./images/ameri-flag.png");
 }
 
 .celebration {
@@ -110,7 +120,6 @@ a:visited {
 }
 
 #friends {
-  background-color: yellow;
 }
 
 .friends {
@@ -122,16 +131,23 @@ a:visited {
   text-decoration: underline;
 }
 
+#footer {
+  margin: 0px auto;
+  background-color: darkgrey;
+  color: white;
+}
+
 footer p {
   font-family: arial;
   text-align: center;
 }
 
 .social-media {
-  display: table;
-  margin: auto auto;
+  display: block;
+  margin: 0px auto;
 }
 
 .social-media img {
   height: 3em;
+  width: auto;
 }
